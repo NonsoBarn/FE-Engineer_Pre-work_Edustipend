@@ -9,8 +9,8 @@ function Home() {
       <div className="row">
         <div className="col-lg-8 col-md-6 ">
           <div className="md-ps-5 md-pt-5 ps-4 pt-3">
-            <div className="lg-ps-5 lg-pt-5">
-              <h2 className="fs-1">Make your party fun!</h2>
+            <div className="ps-md-5 ps-2 pt-md-5 pt-2">
+              <h2 className="fs-1 fw-bold">Make your party fun!</h2>
               <p className="fs-5">Create your own custom playlist today.</p>
               <Buttons style={"py-1"}> Create Playlist </Buttons>
             </div>
