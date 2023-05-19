@@ -5,15 +5,12 @@ import Buttons from "../shared/Button";
 
 function NavbarComponent() {
   return (
-    <Navbar
-      className="square border border-dark md-mx-4 my-4 rounded  "
-      bg="white"
-    >
+    <Navbar className=" border border-dark mx-4 my-4 rounded  " bg="white">
       <Container>
-        <Nav class="nav navbar-nav d-flex flex-row ml-auto gap-3 text-center ">
-          <Nav.Item>Contact us</Nav.Item>
+        <Nav class="nav navbar-nav d-flex flex-row ms-auto gap-3 text-center ">
+          <Nav.Item role="button"> Contact us</Nav.Item>
           <Nav.Item>
-            <Buttons>Login</Buttons>
+            <Buttons style={"py-0"}>Signup</Buttons>
           </Nav.Item>
         </Nav>
       </Container>

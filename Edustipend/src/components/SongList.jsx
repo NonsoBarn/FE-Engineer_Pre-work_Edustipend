@@ -33,13 +33,13 @@ const trendingSongs = [
 
 function SongList() {
   return (
-    <div className="">
+    <div className="my-5 my-md-3">
       <Container className="">
-        <div className="test bg-secondary square border border-dark mx-3 my-2 d-flex flex-column  text-center ">
+        <div className="trending bg-secondary square border border-dark mx-4 ms-md-5  my-2 d-flex flex-column  text-center ">
           <h3 className="pt-4">Trending Songs</h3>
           <Song props={trendingSongs} />
           <div>
-            <Buttons> View More</Buttons>
+            <Buttons style={"py-1"}> View More</Buttons>
           </div>
         </div>
       </Container>

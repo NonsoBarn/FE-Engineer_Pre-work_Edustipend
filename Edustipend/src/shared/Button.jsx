@@ -1,8 +1,8 @@
 import Button from "react-bootstrap/Button";
 
-const Buttons = ({ children }) => {
+const Buttons = ({ children, style }) => {
   return (
-    <Button variant="warning" className="border-dark py-0">
+    <Button variant="warning" className={`${style} border-dark `}>
       {children}
     </Button>
   );
